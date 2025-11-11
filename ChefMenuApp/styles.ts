@@ -51,4 +51,35 @@ export default StyleSheet.create({
   row: { flexDirection: 'row', width: '100%', justifyContent: 'space-between', alignItems: 'center', marginVertical: 8 },
 
   totalText: { fontSize: 18, fontWeight: '700', marginTop: 12 },
+
+  buttonRow: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    marginTop: 15,
+    gap: 15,
+  },
+
+  actionButton: {
+    flex: 1,
+    backgroundColor: '#ff914d',
+    padding: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginHorizontal: 5,
+  },
+
+  cancelButton: {
+    flex: 1,
+    backgroundColor: '#f44336',
+    padding: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginHorizontal: 5,
+  },
+
+  buttonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
 });
