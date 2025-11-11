@@ -45,7 +45,7 @@ export default function HomeScreen({
 
       <View style={styles.row}>
         <TouchableOpacity style={[styles.btnPrimary]} onPress={goToAdd}>
-          <Text style={styles.btnText}>Add Menu Item</Text>
+          <Text style={styles.btnText}>Add Menu</Text>
         </TouchableOpacity>
         <TouchableOpacity style={[styles.btnSecondary]} onPress={goToFilter}>
           <Text style={styles.btnText}>Filter Menu</Text>

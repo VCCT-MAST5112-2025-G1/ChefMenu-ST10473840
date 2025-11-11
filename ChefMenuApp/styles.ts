@@ -12,7 +12,7 @@ export default StyleSheet.create({
   titleWhite: { fontSize: 22, color: '#fff', fontWeight: '700', marginBottom: 10 },
 
   inputDark: {
-    width: '100%',
+    width: '80%',
     backgroundColor: '#444',
     color: '#fff',
     borderRadius: 8,
@@ -20,7 +20,7 @@ export default StyleSheet.create({
     marginVertical: 6,
   },
   inputLight: {
-    width: '100%',
+    width: '80%',
     backgroundColor: '#eee',
     color: '#333',
     borderRadius: 8,
@@ -32,7 +32,7 @@ export default StyleSheet.create({
     padding: 12,
     borderRadius: 8,
     marginVertical: 6,
-    width: '100%',
+    width: '50%',
     alignItems: 'center',
   },
   btnSecondary: {
@@ -40,7 +40,7 @@ export default StyleSheet.create({
     padding: 12,
     borderRadius: 8,
     marginVertical: 6,
-    width: '100%',
+    width: '50%',
     alignItems: 'center',
   },
   btnDanger: {
@@ -48,7 +48,7 @@ export default StyleSheet.create({
     padding: 12,
     borderRadius: 8,
     marginVertical: 6,
-    width: '100%',
+    width: '50%',
     alignItems: 'center',
   },
   btnText: { color: '#fff', fontWeight: '600' },
@@ -64,7 +64,7 @@ export default StyleSheet.create({
   },
   row: { flexDirection: 'row', marginVertical: 8 },
   card: {
-    width: '100%',
+    width: '80%',
     backgroundColor: '#fff',
     padding: 12,
     borderRadius: 8,
