@@ -1,3 +1,4 @@
+// PaymentScreen.tsx
 import React, { useState } from 'react';
 import { View, Text, TextInput, FlatList, TouchableOpacity, Alert } from 'react-native';
 import styles from './styles';
@@ -9,7 +10,7 @@ type Props = {
   onLogout: () => void;
 };
 
-export default function PaymentScreen({ menu, onBack, onLogout }: Props): React.ReactElement {
+export default function PaymentScreen({ menu, onBack, onLogout }: Props): JSX.Element {
   const [name, setName] = useState('');
   const [card, setCard] = useState('');
   const [expiry, setExpiry] = useState('');
