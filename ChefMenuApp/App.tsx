@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
-import { View } from 'react-native'; import SplashScreen from './SplashScreen'; import HomeScreen from './HomeScreen'; import AddMenuScreen from './AddMenuScreen';
-import FilterScreen from './FilterScreen'; import PaymentScreen from './PaymentScreen';
+import { View } from 'react-native';
+
+import SplashScreen from './SplashScreen';
+import HomeScreen from './HomeScreen';
+import AddMenuScreen from './AddMenuScreen';
+import FilterScreen from './FilterScreen';
+import PaymentScreen from './PaymentScreen';
 
 import styles from './styles';
 import menuData from './menuData';
@@ -14,7 +19,7 @@ export interface MenuItem {
   course: 'Starter' | 'Main' | 'Dessert';
 }
 
-export default function App(): React.ReactElement {
+export default function App() {
   const [screen, setScreen] = useState<ScreenName>('splash');
   const [menu, setMenu] = useState<MenuItem[]>(menuData);
   const [filter, setFilter] = useState<'All' | 'Starter' | 'Main' | 'Dessert'>('All');
