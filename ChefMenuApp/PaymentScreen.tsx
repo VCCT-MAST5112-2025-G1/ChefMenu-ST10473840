@@ -1,5 +1,4 @@
-// PaymentScreen.tsx
-import React, { useState } from 'react';
+import React, { useState, JSX } from 'react';
 import { View, Text, TextInput, FlatList, TouchableOpacity, Alert } from 'react-native';
 import styles from './styles';
 import { MenuItem } from './App';
