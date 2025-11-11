@@ -27,36 +27,61 @@ export default StyleSheet.create({
     padding: 10,
     marginVertical: 6,
   },
-
-
-  buttonRow: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    marginTop: 15,
-    gap: 15,
-  },
-
-  actionButton: {
-    flex: 1,
+  btnPrimary: {
     backgroundColor: '#ff914d',
     padding: 12,
     borderRadius: 8,
+    marginVertical: 6,
+    width: '100%',
     alignItems: 'center',
-    marginHorizontal: 5,
   },
-
-  cancelButton: {
-    flex: 1,
-    backgroundColor: '#f44336',
+  btnSecondary: {
+    backgroundColor: '#777',
     padding: 12,
     borderRadius: 8,
+    marginVertical: 6,
+    width: '100%',
     alignItems: 'center',
-    marginHorizontal: 5,
   },
-
-  buttonText: {
-    color: '#fff',
-    fontWeight: 'bold',
-    fontSize: 16,
+  btnDanger: {
+    backgroundColor: '#ff4d4d',
+    padding: 12,
+    borderRadius: 8,
+    marginVertical: 6,
+    width: '100%',
+    alignItems: 'center',
   },
+  btnText: { color: '#fff', fontWeight: '600' },
+  smallBtn: {
+    paddingVertical: 6,
+    paddingHorizontal: 12,
+    borderRadius: 6,
+    backgroundColor: '#555',
+    marginHorizontal: 4,
+  },
+  smallBtnActive: {
+    backgroundColor: '#ff914d',
+  },
+  row: { flexDirection: 'row', marginVertical: 8 },
+  card: {
+    width: '100%',
+    backgroundColor: '#fff',
+    padding: 12,
+    borderRadius: 8,
+    marginVertical: 6,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+totalText: { fontSize: 20, fontWeight: '700', marginVertical: 10, color: '#ff914d' },
+cardFooter: {
+  fontSize: 14,
+  color: '#bbb',
+  marginTop: 4,
+},
+  cardTitle: { fontSize: 18, fontWeight: '700', marginBottom: 4 },
+  infoText: { fontSize: 16, color: '#333' },
+  infoTextWhite: { fontSize: 16, color: '#fff' },
 });

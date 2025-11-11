@@ -71,12 +71,12 @@ export default function HomeScreen({
         renderItem={({ item, index }) => (
           <View style={styles.card}>
             <Text style={styles.cardTitle}>{item.dish}</Text>
-            <Text style={styles.cardSub}>{item.desc}</Text>
+            <Text style={styles.card}>{item.desc}</Text>
             <Text style={styles.cardFooter}>{item.course} — R{item.price}</Text>
 
             <View style={styles.row}>
               <TouchableOpacity
-                style={[styles.smallAction, { backgroundColor: '#f44336' }]}
+                style={[styles.smallBtn, { backgroundColor: '#f44336' }]}
                 onPress={() =>
                   Alert.alert('Remove item', `Remove "${item.dish}"?`, [
                     { text: 'Cancel', style: 'cancel' },
