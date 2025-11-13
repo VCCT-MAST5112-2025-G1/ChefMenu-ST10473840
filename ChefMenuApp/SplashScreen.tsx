@@ -17,7 +17,7 @@ export default function SplashScreen({ onFinish }: Props): React.ReactElement {
 
   return (
     <View style={[styles.containerCentered, { backgroundColor: '#ff914d' }]}>
-      <Animated.Text style={[styles.splashText, { opacity: fade }]}>Chef's Menu App 🍽️</Animated.Text>
+      <Animated.Text style={[styles.splashText, { opacity: fade }]}>Chef's Menu App</Animated.Text>
     </View>
   );
 }
