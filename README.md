@@ -1,19 +1,34 @@
-# Chef's Menu App
+# Chef’s Menu App
 
 ## Overview
-Chef's Menu App is a React Native application built with Expo.
-It allows a chef to add new dishes, view them, and calculates the total number of dishes and money made.
+The Chef’s Menu App is a React Native mobile application designed for chefs to manage their dishes, organize menus by course, and record payment summaries easily.  
+It provides an intuitive interface to add, view, and categorize dishes while offering a simple payment recording system.
+
+## Purpose
+This app was built as part of a Summative Portfolio of Evidence project to demonstrate skills in:
+- React Native (TypeScript)
+- UI/UX layout and design
+- State management
+- Event handling
+- App documentation and ethical AI declaration
 
 ## Features
-* Splash screen with fade-in animation
-* Add dish form (name, description, and price)
-* FlatList display of all dishes added
-* Total Screen where the Chef can count the total number of dishes sold and the amount,
-* Logout button that returns the user to the splash screen
-* Clean, consistent, and user-friendly UI
+* Splash screen with logo and fade-in animation  
+* Add dishes (name, description, price, course)  
+* Filter menu by course type (Starter, Main, Dessert)  
+* Calculate total and average dish prices  
+* Record payments with a summary page  
+* Simple and responsive layout
 
+## Technologies Used
+- React Native
+- Expo Go to test the app
+- Animated API (React Native)
+- React Hooks – for managing app state and screen transitions  
 
-##  Installation
+---
+
+## How to Run the App
 To run the app locally:
 
 git clone <your-repository-url>
